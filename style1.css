@@ -1,0 +1,145 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Navbar styles */
+
+    /* Add your navbar styles here */
+    .navbar {
+        background-color: lightsalmon;
+        padding: 20px 0;
+    }
+    
+    
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .logo {
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: bold; /* Making the logo bold */
+        text-transform: uppercase; /* Converting text to uppercase */
+    }
+    
+    .nav-links {
+        height: 40px;
+        justify-content: center;
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-links li {
+        height: 100%;
+        margin-right: 20px;
+    }
+    
+    .nav-links li:last-child {
+        margin-right: 0;
+    }
+    
+    .nav-links li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-links li a:hover {
+        color: goldenrod;
+        background-color: #555;
+        transition-duration: 2s;
+        height: 40px;
+    }
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* List styles */
+ol {
+    list-style: none;
+}
+
+ol li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+ol li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f0f543;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Styling for tips */
+ol li {
+    position: relative;
+}
+
+ol li::before {
+    content: "\2022";
+    color: #ff6f61;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
